@@ -5,5 +5,6 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <TextBox Height="23" HorizontalAlignment="Left" Margin="44,22,0,0" Name="textBox1" VerticalAlignment="Top" Width="120" Text="{Binding FirstName, Mode=TwoWay}"  />
+        <Button Content="Button" Height="23" HorizontalAlignment="Left" Margin="170,22,0,0" Name="button1" VerticalAlignment="Top" Width="75" Command="{Binding OkCommand}" />
     </Grid>
 </Window>

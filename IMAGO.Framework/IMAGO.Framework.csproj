@@ -36,7 +36,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GalaSoft.MvvmLight.WPF4, Version=4.0.23.37706, Culture=neutral, PublicKeyToken=63eb5c012e0b3c1c, processorArchitecture=MSIL" />
+    <Reference Include="GalaSoft.MvvmLight.WP7">
+      <HintPath>..\References\External\Mvvm Light Toolkit\Binaries\WP7\GalaSoft.MvvmLight.WP7.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Data" />
@@ -65,6 +67,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="MVVM\IMAGOViewModelBase.cs" />
+    <Compile Include="MVVM\Interfaces\IIMAGOViewModelBase.cs" />
     <Compile Include="MVVM\IViewModelMetadata.cs" />
     <Compile Include="MVVM\Locator.cs" />
     <Compile Include="ViewModels\MainWindowViewModel.cs" />
