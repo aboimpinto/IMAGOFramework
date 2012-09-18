@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="IMAGO.ServerEndPoints.Services.AuthenticationService" CodeBehind="AuthenticationService.svc.cs" %>

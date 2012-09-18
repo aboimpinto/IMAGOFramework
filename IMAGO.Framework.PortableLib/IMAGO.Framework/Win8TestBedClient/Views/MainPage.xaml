@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="Win8TestBedClient.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Win8TestBedClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="using:Win8TestBedClient.ViewModels"
+    mc:Ignorable="d">
+    
+    <UserControl.DataContext>
+        <viewModel:MainPageViewModel />
+    </UserControl.DataContext>
+    
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox HorizontalAlignment="Left" Margin="101,91,0,0" TextWrapping="Wrap" Text="{Binding FirstName}" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
